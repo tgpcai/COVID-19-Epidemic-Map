@@ -1,0 +1,123 @@
+/*该文件的主要作用为设置页面的布局等*/
+body{
+	margin: 0;
+	background: #333;
+}
+
+#title{
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 0;
+	left: 30%;
+	/* background: #11557C; */
+	color: white;
+	font-size: 40px;
+	/* 设置标题为居中格式 */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#time{
+	position: absolute;
+	/*width: 30%;*/
+	height: 10%;
+	top: 5%;
+	right: 2%;
+	font-size: 20px;
+	color: #FF1493;
+	/* background: green; */
+}
+
+#c1{
+	position: absolute;
+	width: 40%;
+	height: 25%;
+	top: 10%;
+	left: 30%;
+	color: white;
+	/* background: #777777; */
+}
+.num{
+	width: 25%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gold;
+	font-size: 20px;
+}
+.txt{
+	width: 25%;
+	float: left;
+	font-family: "幼圆";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.txt h2{
+	margin: 0;
+}
+
+#c2{
+	position: absolute;
+	width: 40%;
+	height: 60%;
+	top: 35%;
+	left: 30%;
+	/* background: #888888; */
+}
+
+
+#l1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	left: 0%;
+/* 	background: #999999; */
+}
+
+#l2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	left: 0%;
+/* 	background: #485F6E; */
+}
+
+#r1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	right: 0%;
+/* 	background: #3B666B; */
+}
+
+#r2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	right: 0%;
+/* 	background: #11557C; */
+}
+
+a{
+    text-decoration: none;
+}
+.china{
+    width: 250px;
+    color: #63cdda;
+    font-size: 18px;
+    position: absolute;
+    top:3%;
+    text-align:left;
+    left: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

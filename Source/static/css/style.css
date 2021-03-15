@@ -1,0 +1,56 @@
+/* 公共初始化S */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 700px;
+    margin: 0;
+    background: #333;
+}
+
+
+/* 标题 */
+#title{
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    left: 30%;
+    font-size: 30px;
+    color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+
+#world{
+    top: 10%;
+    bottom: 3%;
+    left: 0%;
+    right: 4%;
+    /*width: 80%;*/
+    /*height: 50%;*/
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.china{
+    width: 250px;
+    color: #63cdda;
+    font-size: 18px;
+    position: absolute;
+    top:5%;
+    text-align:left;
+    left: 3%;
+}
+
+
